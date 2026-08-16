@@ -7,6 +7,7 @@
 // @description  Adds a functional “PDF” tag to each results card so the document can be downloaded
 // @author       TrouveMe
 // @include      /^https:\/\/knowunity\.[^/]+\/.*$/
+// @match        *://*knowunity.*/*
 // @grant        none
 // @license MIT
 // ==/UserScript==
