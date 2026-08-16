@@ -125,7 +125,8 @@
   function extractDocId(url) {
     try {
       const decoded = decodeUrl(url);
-      const match = decoded.match(/content-eu-central-1\.knowunity\.com\/CONTENT\/([A-Za-z0-9]+)/i);
+      // Capturer l'UUID complet avec les tirets
+      const match = decoded.match(/content-eu-central-1\.knowunity\.com\/CONTENT\/([A-Za-z0-9-]+)/i);
       return match ? match[1] : null;
     } catch (e) {
       return null;
