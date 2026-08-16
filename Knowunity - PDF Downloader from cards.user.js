@@ -2,7 +2,7 @@
 // @name:fr         Knowunity - Télécharger PDF depuis les cartes
 // @name         Knowunity - PDF Downloader from cards
 // @namespace    knowunity.pdf.downloader
-// @version      1.2
+// @version      1.2.5
 // @description:fr  Ajoute un tag "PDF" fonctionnel sur chaque carte de résultat pour télécharger le document
 // @description  Adds a functional “PDF” tag to each results card so the document can be downloaded
 // @author       TrouveMe
